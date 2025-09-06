@@ -1,0 +1,160 @@
+/* Fonts and basics */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.brand-font {
+  font-family: 'Lobster', cursive;
+  font-size: 1.6rem;
+}
+.logo-icon {
+  color: #FEA116;
+  font-size: 1.4rem;
+  margin-right: 5px;
+}
+
+/* Navbar */
+.navbar-dark .nav-link {
+  color: white;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link.active {
+  color: #FEA116;
+}
+
+.navbar-brand {
+  color: #FEA116 !important;
+  font-family: 'Lobster', cursive;
+  font-size: 1.6rem;
+}
+
+/* Hero */
+.hero {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  height: 90vh;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Sections */
+.section-title {
+  font-family: 'Lobster', cursive;
+  color: #FEA116;
+}
+
+/* Cards */
+.menu-card img {
+  height: 220px;
+  object-fit: cover;
+}
+.menu-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.testimonial-card {
+  transition: 0.3s;
+  background: #ffffff;   /* white card for contrast */
+  color: #000000;        /* black text always */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.testimonial-card:hover {
+  background: #ffffff;   /* stay white */
+  border: 1px solid #FEA116; /* orange border highlight */
+  box-shadow: 0 6px 18px rgba(254, 161, 22, 0.25); /* orange glow */
+  transform: translateY(-5px);
+  color: #000000; /* lock text to black */
+}
+
+
+/* Text colors */
+.text-orange {
+  color: #FEA116;
+}
+
+/* Carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) hue-rotate(30deg) saturate(3);
+  width: 2rem;
+  height: 2rem;
+}
+.carousel-indicators button {
+  background-color: #FEA116 !important;
+}
+
+
+.carousel-indicators {
+  bottom: -60px;  /* push dots further down */
+}
+
+#reservation form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#reservation button {
+  background-color: #FEA116;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+#reservation button:hover {
+  background-color: #d97e0f;
+}
+
+/* --- Testimonials spacing --- */
+#testimonials {
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+/* --- Reservation section styling --- */
+#reservation {
+  background-color: #fbfbfb; /* subtle grey contrast */
+  padding: 80px 0;
+}
+
+/* Heading spacing */
+#reservation .section-title {
+  margin-bottom: 20px;
+}
+
+/* Reservation form box */
+#reservation form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(15, 23, 43, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Book Now button orange */
+#reservation .btn {
+  background-color: #FEA116;
+  color: #fff;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 8px;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+#reservation .btn:hover {
+  background-color: #d97e0f;
+  transform: translateY(-2px);
+}
+
