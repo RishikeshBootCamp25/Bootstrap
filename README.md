@@ -26,7 +26,7 @@ bootstrap-bootcamp/taste_of_rishikesh/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/bootstrap-bootcamp.git
+   git clone https://github.com/RishikeshBootCamp25/Bootstrap.git
     ```
 2. Open index.html in VS Code.
 
