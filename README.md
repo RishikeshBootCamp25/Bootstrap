@@ -13,12 +13,11 @@ This is a beginner-friendly web project for learning **HTML, CSS, and Bootstrap*
 ## Project Structure
 
 ```text
-bootstrap-bootcamp/taste_of_rishikesh/
+bootstrap/project/taste_of_rishikesh/
 │
 ├── index.html       # Main HTML page
 ├── style.css        # Custom CSS styling
-├── images/          # Folder for images
-└── README.md        # Project description (this file)
+└──  images/          # Folder for images
 ```
 
 
