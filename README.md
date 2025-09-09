@@ -13,7 +13,7 @@ This is a beginner-friendly web project for learning **HTML, CSS, and Bootstrap*
 ## Project Structure
 
 ```text
-bootstrap/project/taste_of_rishikesh/
+bootstrap/Project/taste_of_rishikesh/
 │
 ├── index.html       # Main HTML page
 ├── style.css        # Custom CSS styling
